@@ -31,9 +31,7 @@ class HomePageStates extends State<HomePage> {
       appBar: AppBar(
         title: Text("MUSIC",
             style: TextStyle(
-              fontFamily: "BOLD",
-              fontSize: 30,
-            )),
+                fontFamily: "BOLD", fontSize: 30, color: Colors.white)),
       ),
       body: Container(
         child: Column(
